@@ -39,7 +39,7 @@ import java.io.IOException;
  * interface for credentials that support regional access boundary checks.
  */
 @InternalApi
-interface RegionalAccessBoundaryProvider {
+public interface RegionalAccessBoundaryProvider {
 
   /**
    * Returns the regional access boundary URI.
