@@ -63,6 +63,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -1344,6 +1345,7 @@ class ExternalAccountAuthorizedUserCredentialsTest extends BaseSerializationTest
       Assertions.fail("Timed out waiting for regional access boundary refresh");
     }
   }
+
   static GenericJson buildJsonCredentials() {
     GenericJson json = new GenericJson();
     json.put(
